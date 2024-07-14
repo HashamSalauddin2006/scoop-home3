@@ -1,0 +1,612 @@
+* {
+  box-sizing: border-box !important;
+  font-family: sans-serif;
+}
+
+/* ===== goole fonts ===== */
+@font-face {
+  font-family: "Euclid Circular A";
+  src: url(./asseets/fonts/euclid-circular-a-cufonfonts/Euclid\ Circular\ A\ Bold.ttf);
+}
+
+/* ===== variable start ===== */
+:root {
+  --secondary-color: #ffa300;
+  --primary-color: #7317cf;
+  --white-color: #ffff;
+  --black-color: #1a1a1a;
+}
+
+/* ===== variable end ===== */
+.row {
+  margin: 0px !important;
+  padding: 0px !important;
+}
+
+/* ===== top header ===== */
+.top_header {
+  background-color: var(--secondary-color) !important;
+}
+
+.main_div {
+  display: flex !important;
+  justify-content: flex-end !important;
+  padding-top: 15px !important;
+  vertical-align: middle !important;
+}
+
+.main_div .fa-phone {
+  font-size: 20px !important;
+  margin-right: 10px !important;
+  color: var(--white-color) !important;
+}
+
+.main_div p {
+  font-family: "Euclid Circular A";
+  font-size: 16px !important;
+  color: var(--white-color) !important;
+  font-weight: 700 !important;
+}
+
+/* ===== header section start */
+header {
+  background-image: url(./asseets/images/background\ images.jpg) !important;
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+  height: 100vh !important;
+}
+
+header .navbar {
+  padding-top: 20px !important;
+}
+
+/* .navbar {
+  position: fixed !important;
+  top: 0 !important;
+  left: 0 !important;
+  width: 100% !important;
+  z-index: 1000 !important;
+  background-color: var(--primary-color) !important;
+} */
+
+.navbar_img {
+  width: 150px !important;
+  margin: 20px 0px 0px 150px !important;
+}
+
+.navbar_items {
+  margin-left: 240px !important;
+  display: flex !important;
+  align-items: center !important;
+}
+
+.navbar_items .nav-item {
+  margin-left: 10px !important;
+}
+
+.navbar_items .nav-link {
+  font-size: 16px !important;
+  font-family: "Euclid Circular A";
+  color: var(--black-color) !important;
+  font-weight: 400 !important;
+  letter-spacing: 1px !important;
+}
+
+.nav_style {
+  background-color: var(--secondary-color) !important;
+  padding: 15px 20px !important;
+  border-radius: 80px !important;
+  color: white !important;
+}
+
+.nav_style:hover {
+  background-color: var(--primary-color) !important;
+  box-shadow: 0px 0px 10px var(--primary-color) !important;
+  color: var(--white-color) !important;
+}
+
+.nav_hover {
+  padding: 15px 20px !important;
+  border-radius: 80px !important;
+
+
+}
+
+.nav_hover:hover {
+  background-color: var(--secondary-color) !important;
+  color: var(--white-color) !important;
+  box-shadow: 0px 0px 10px var(--secondary-color) !important;
+  color: var(--white-color) !important;
+}
+
+/* ===== main_contnet section ===== */
+.content_wrapper {
+  margin-top: 120px !important;
+}
+
+.content_wrapper .main_heading h1 {
+  font-family: "Euclid Circular A";
+  color: var(--primary-color) !important;
+  font-weight: 700 !important;
+  font-size: 42px !important;
+}
+
+.content_wrapper .main_heading_2 h2 {
+  font-family: "Euclid Circular A";
+  font-size: 62px !important;
+  color: var(--primary-color) !important;
+  font-weight: 750 !important;
+}
+
+.main_para {
+  padding-top: 10px !important;
+}
+
+.main_para p {
+  font-family: "Euclid Circular A";
+  color: var(--primary-color) !important;
+  font-size: 20px !important;
+}
+
+.card-body img:hover {
+  transform: all translate(1.5s) ease-in-out !important;
+  /* transition: ; */
+}
+
+.form_container {
+  display: flex;
+  border: 1px solid blueviolet;
+  width: 600px;
+  border-radius: 5px;
+  padding: 2px;
+  box-shadow: none;
+}
+
+.form_container input {
+  border: none;
+  width: 100%;
+  /* border: 1px solid black; */
+  /* padding: 5px; */
+}
+
+.form_button button {
+  font-family: "Euclid Circular A";
+  margin: 0px;
+  font-weight: 600;
+  padding: 17px 35px;
+  border: transparent;
+  font-size: 18px;
+  background: #7317cf;
+  color: #ffffff;
+  border-radius: 5px;
+  text-transform: uppercase;
+  outline: unset !important;
+  width: 100%;
+}
+
+.form_button button:hover {
+  background-color: #000 !important;
+}
+
+/* <!-- ===== images section start ===== --> */
+.images_section {
+  padding-top: 90px !important;
+  vertical-align: middle !important;
+}
+
+.images .images_section {
+  padding-left: 50px !important;
+  max-width: 100% !important;
+}
+
+/* ===== card section ===== */
+.card_wrapper {
+  margin-top: 30px !important;
+  background-color: #F7EEFF;
+  padding: 0px 0px 90px 0px;
+}
+
+.card_wrapper h1 {
+  color: var(--primary-color) !important;
+  font-size: 40px;
+  font-family: 'Euclid Circular A';
+  font-weight: 700 !important;
+  color: #7317CF;
+  margin: 50px 0px;
+}
+
+.card_section {
+  background-color: #FFFFFF !important;
+  text-align: center;
+  color: #7317CF !important;
+  border-radius: 20px;
+  border: transparent;
+  box-shadow: rgb(115 23 207 / 40%) 0px 0px 20px 2px;
+  padding: 15px 15px;
+  cursor: pointer;
+  display: flex !important;
+  justify-content: center !important;
+  height: 350px !important;
+  position: relative;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.card_section .card-title {
+  color: var(--primary-color) !important;
+  font-family: 'Euclid Circular A';
+  font-weight: 700 !important;
+  margin: 20px 0 !important;
+  font-size: 18px !important;
+}
+
+.card_section .card-text {
+  font-family: 'Euclid Circular A';
+  font-weight: 500 !important;
+  font-size: 16px !important;
+  line-height: 22px !important;
+}
+
+.col-gap {
+  display: flex !important;
+  justify-content: space-between !important;
+  align-items: center !important;
+  /* margin-left: 50.66666667% !important; */
+  /* width: 66.66666667%; */
+  margin-top: 30px !important;
+
+}
+
+/* ===== footer section ===== */
+.footer_section {
+  background: #1D003A !important;
+  height: 850px !important;
+}
+
+.footer_images img {
+  padding-left: 100px !important;
+
+
+}
+
+.footer-div {
+  margin-left: 10px !important;
+  width: 100% !important;
+}
+
+.footer_images img {
+  width: 280px !important;
+  padding: 100px 20px 30px 20px !important;
+}
+
+.footer_div {
+  padding-top: 20px !important;
+  padding-left: 20px !important;
+}
+
+.footer_section {
+  padding-top: 100px !important;
+  padding-left: 130px !important;
+}
+
+.footer_div {
+  display: flex !important;
+}
+
+.footer_heading h4 {
+  font-family: 'Euclid Circular A';
+  font-weight: 600;
+  font-size: 20px;
+  color: #ffff !important;
+  margin-bottom: 20px !important;
+}
+
+.footer_div ul li {
+  margin-top: 10px !important;
+}
+
+.footer_div ul li a {
+  text-decoration: none !important;
+  color: rgba(255, 255, 255, 0.7) !important;
+  font-family: "Euclid Circular A" !important;
+  font-weight: 500 !important;
+}
+
+/* ===== second div===== */
+
+.main-div {
+  margin-left: 0px !important;
+  width: 100% !important;
+  margin-top: 12px !important;
+
+}
+
+.icon_main_div {
+  margin-top: 10px !important;
+}
+
+.icon_div {
+  margin-top: 15px !important;
+}
+
+.icon_div span {
+  color: rgba(255, 255, 255, 0.7) !important;
+
+}
+
+.socail_name {
+  font-family: 'Euclid Circular A';
+  font-weight: 400 !important;
+  font-size: 18px !important;
+  color: rgba(255, 255, 255, 0.7) !important;
+  margin-left: 20px !important;
+}
+
+.socail_icon {
+  margin-top: 20px !important;
+}
+
+.socail_icon .fb_icon {
+  margin: 0px 8px !important;
+  width: 40px !important;
+  height: 40px !important;
+  background-color: #1D003A !important;
+  text-align: center !important;
+  line-height: 38px !important;
+  font-size: 20px !important;
+  margin: 0 8px !important;
+  border-radius: 50% !important;
+  position: relative !important;
+  overflow: hidden !important;
+  border: 2px solid #FFFFFF !important;
+  z-index: 1 !important;
+  color: #fff !important;
+  cursor: pointer;
+}
+
+.icon {
+  color: var(--white-color) !important;
+}
+
+/* ===== about section ===== */
+.main_app_about_section_container {
+  text-align: center !important;
+
+}
+
+.main_app_about_section_container h1 {
+  font-size: 40px;
+  font-family: "Euclid Circular A";
+  font-weight: 700;
+  color: rgb(115, 23, 207);
+  margin: 50px 0px !important;
+}
+
+.main_about_sec {
+  margin-top: 15px !important;
+  /* margin-left: 100px !important; */
+  /* padding-left: 100px !important; */
+  /* background-color: var(--primary-color); */
+}
+
+.app_left {
+  /* background-color: var(--secondary-color) !important; */
+  margin-top: 15px !important;
+  padding-left: 110px !important;
+
+}
+
+.main_app_about_div #about_para {
+  font-family: "Euclid Circular A" !important;
+  font-weight: 900 !important;
+  font-size: 18px !important;
+  line-height: 28px !important;
+  margin-bottom: 20px !important;
+}
+
+.about_icon_1 {
+  margin-top: 5px !important;
+}
+
+.about_icon span {
+  font-size: 16px !important;
+  line-height: 22px !important;
+  /* font-family: "Euclid Circular A" !important; */
+  font-weight: 7600 !important;
+  margin: 5px 5px 5px !important;
+
+}
+
+.about_icon i {
+  color: rgb(255, 255, 255) !important;
+  font-size: 10px !important;
+  width: 20px !important;
+  height: 20px !important;
+  background: rgb(115, 23, 207) !important;
+  padding: 4px !important;
+  border-radius: 100px !important;
+}
+
+/*  ===== website design ===== */
+.website_sec {
+  background-color: #F7EEFF !important;
+  padding: 40px 0px 90px 0px !important;
+  margin-top: 100px !important;
+}
+
+.website_sec h1 {
+  font-size: 40px;
+  font-family: "Euclid Circular A";
+  font-weight: 700;
+  color: var(--primary-color) !important;
+  margin: 50px 0px !important;
+  text-align: center !important;
+
+}
+
+.website_left {
+  padding-top: 100px !important;
+  padding-left: 110px !important;
+}
+
+.website_para p {
+
+  font-size: 18px !important;
+  line-height: 26px !important;
+  font-family: 'Euclid Circular A' !important;
+  font-weight: 600 !important;
+  margin: 8px 0px 10px !important;
+}
+
+.websie_icon_div {
+  margin-top: 20px !important;
+}
+
+.websie_icon_div span {
+  font-size: 16px;
+  line-height: 22px;
+  font-family: 'Euclid Circular A';
+  font-weight: 400 ;
+  margin-left: 5px !important;
+  color: var(--black-color) !important;
+  /* font-size: 16px;
+  line-height: 22px;
+  font-family: 'Euclid Circular A';
+  font-weight: 400;
+  margin: 8px 8px 10px; */
+}
+
+.websie_icon_div i {
+  color: var(--white-color) !important;
+  opacity: 1 !important;
+  font-size: 10px !important;
+  width: 20px !important;
+  height: 20px !important;
+  background: rgb(115, 23, 207) !important;
+  padding: 5px !important;
+  border-radius: 100px !important;
+  text-align: center !important;
+}
+
+.website_btn {
+  padding-top: 15px !important;
+}
+
+.website_btn .custsom_btn {
+  font-family: 'Euclid Circular A';
+  font-weight: 400;
+  background: #8919f9;
+  color: #fff !important;
+  font-size: 20px;
+  border-radius: 40px;
+  margin: 30px 0px;
+  text-transform: capitalize;
+  text-decoration: none;
+  padding: 12px 35px;
+  display: inline-block;
+  border-radius: 100px;
+  transition: all 0.2s;
+  position: absolute;
+  outline: none !important;
+  border: none !important;
+}
+.webiste_img img {
+  width: 100% !important;
+  height: auto !important;
+}
+
+/* ===== form section ===== */
+.form_heading {
+  text-align: center !important;
+  margin: 0px auto !important;
+  width: 27.5vw !important;
+  margin: 0px auto !important;
+  padding: 10px 0px !important;
+  margin: 10px auto !important;
+  border: transparent;
+  border-radius: 30px;
+  background-image: -webkit-linear-gradient(350deg, rgb(97 31 163) 0%, rgb(114, 22, 206) 4%, rgb(68, 1, 136) 100%) !important;
+  box-shadow: 0px 0px 20px var(--primary-color) !important;
+}
+
+.form_main_heading .form_h {
+  font-size: 26px !important;
+  font-family: 'Euclid Circular A';
+  font-weight: 600 !important;
+  margin-bottom: 0px !important;
+  margin-top: 35px !important;
+  color: var(--white-color) !important;
+}
+
+.form_main_heading .form_para {
+  color: var(--white-color) !important;
+  font-family: 'Euclid Circular A';
+  font-size: 26px;
+  font-weight: 600;
+  margin-top: 8px;
+}
+
+.form_style {
+  margin: 30px 20px !important;
+  /* margin-top: -100px !important; */
+}
+
+.form-control {
+  margin-top: 0px !important;
+  font-family: 'Euclid Circular A';
+  font-weight: 500 !important;
+  width: 100% !important;
+  padding: 10px !important;
+  border-radius: 10px !important;
+  outline: unset !important;
+  border: transparent !important;
+  font-size: 18px !important;
+  margin: 20px 0px !important;
+  padding-left: 24px !important;
+  box-shadow: none !important;
+}
+
+.btn {
+  width: 100% !important;
+  font-family: 'Euclid Circular A';
+  font-weight: 600;
+  font-size: 18px;
+  width: 100%;
+  border: transparent;
+  border-radius: 30px;
+  padding: 12px 0;
+  background-color: #8919f9;
+  color: #FFFFFF;
+  margin-top: 30px !important;
+}
+
+.btn:hover {
+  background-color: #000 !important;
+  color: var(--white-color) !important;
+  border: 2px solid var(--primary-color) !important;
+  box-shadow: 0px 0px 100px var(--primary-color) !important;
+}
+
+.abc {
+  margin-top: -220px !important;
+}
+
+/* ===== footer short section ===== */
+.short_footer {
+  background-color: #000 !important;
+  text-align: center !important;
+}
+
+.short_footer {
+  padding: 25px 0px !important;
+}
+
+.short_footer p {
+  font-size: 18px !important;
+  font-family: "Euclid Circular A";
+  font-weight: 500 !important;
+  margin-bottom: 0px !important;
+  color: #fff !important;
+  line-height: 26px !important;
+}

@@ -1,0 +1,445 @@
+/* ===== variable start ===== */
+:root {
+  --secondary-color: #ffa300;
+  --primary-color: #7317cf;
+  --white-color: #ffff;
+  --black-color: #1a1a1a;
+}
+
+/* ===== variable End ===== */
+
+/* ===== max-width: 768px ===== */
+@media (max-width: 768px) {
+  .top_header {
+    display: none !important;
+  }
+
+  header {
+    background-image: none !important;
+    height: 650px !important;
+    background-color: var(--primary-color) !important;
+    opacity: 1 !important;
+  }
+
+  .navbar_img {
+    margin-left: 0px !important;
+  }
+
+  .navbar-toggler {
+    border: none !important;
+    box-shadow: none !important;
+    color: var(--white-color) !important;
+    font-size: 30px !important;
+  }
+
+  .content_wrapper {
+    width: 100% !important;
+    margin-left: 10px !important;
+    padding-top: 100px !important;
+  }
+
+  .content_wrapper .main_heading {
+    width: 100% !important;
+  }
+
+  .content_wrapper .main_heading h1 {
+    color: var(--white-color) !important;
+    font-size: 32px !important;
+  }
+
+  .content_wrapper .main_heading_2 h2 {
+    color: var(--white-color) !important;
+    font-size: 50px !important;
+  }
+
+  .main_para p {
+    width: 100% !important;
+    color: var(--white-color) !important;
+    font-size: 18px !important;
+  }
+
+  .form_container {
+    width: 550px !important;
+    border: 1px solid var(--white-color) !important;
+  }
+
+  .form_container input {
+    margin: 3px !important;
+    width: 100% !important;
+  }
+
+  .form_button button {
+    padding: 17px 7px !important;
+    font-size: 14px !important;
+  }
+
+  .card_wrapper {
+    width: 100% !important;
+  }
+
+  .card_wrapper .card_section {
+    width: 100% !important;
+  }
+
+  .col-gap {
+    margin-left: 0px !important;
+    width: 100% !important;
+  }
+
+  .form_heading {
+    margin-top: 50px !important;
+    width: 100% !important;
+  }
+
+  .footer_section {
+    padding: 0px 0px 0px 0px !important;
+    height: auto !important;
+  }
+
+  .abc {
+    margin-top: 20px !important;
+  }
+
+  .navbar {
+    position: fixed !important;
+    top: 0 !important;
+    left: 0 !important;
+    width: 100% !important;
+    z-index: 1030 !important;
+    background-color: var(--primary-color) !important;
+  }
+
+  /*  ===== about section ===== */
+  .app_left {
+    width: 100% !important;
+  }
+
+  /* ===== website section ===== */
+  .website_left {
+    padding-left: 0px !important;
+    width: 100% !important;
+    /* background-color: var(--secondary-color) !important; */
+    /* margin-top: -10px !important; */
+  }
+}
+
+/* ===== max-width: 600px ===== */
+@media (max-width: 576px) {
+  header {
+    height: 700px !important;
+  }
+
+  .navbar {
+    position: fixed !important;
+    top: 0px !important;
+    left: 0px !important;
+    width: 96% !important;
+    z-index: 1030 !important;
+    background-color: var(--primary-color) !important;
+  }
+
+  .navbar_mobile_view {
+    /* margin-left: -150px !important; */
+    text-align: center !important;
+    width: 100% !important;
+    /* padding: 0px 10px !important; */
+    margin-top: 10px !important;
+  }
+
+  .navbar_items {
+    width: 85% !important;
+    margin: 50px !important;
+    background-color: var(--white-color) !important;
+    margin-left: 100px !important;
+    margin-top: 10px !important;
+  }
+
+  .navbar_items .nav-item {
+    width: 100% !important;
+    text-align: left !important;
+    margin-top: 10px !important;
+    padding: 10px !important;
+
+  }
+
+  .navbar_items .nav-link {
+    width: 100% !important;
+    color: var(--black-color) !important;
+  }
+
+
+
+  .content_wrapper {
+    width: 100% !important;
+    display: inline-block !important;
+    padding-top: 80px !important;
+  }
+
+  .content_wrapper .main_heading h1 {
+    color: var(--white-color) !important;
+    font-size: 30px !important;
+  }
+
+  .content_wrapper .main_heading_2 h2 {
+    color: var(--white-color) !important;
+    font-size: 30px !important;
+  }
+
+  .main_para p {
+    width: 100% !important;
+    color: var(--white-color) !important;
+    font-size: 16px !important;
+  }
+
+  .form_container {
+    width: 100% !important;
+    border: 1px solid var(--white-color) !important;
+  }
+
+  .form_container input {
+    margin: 3px !important;
+    width: 100% !important;
+    font-size: 20px !important;
+  }
+
+  ::placeholder {
+    color: var(--black-color) !important;
+    font-size: 14px !important;
+    margin-left: 50px !important;
+  }
+
+  .form_button button {
+    padding: 17px 5px !important;
+    font-size: 14px !important;
+  }
+
+  .images {
+    width: 100% !important;
+  }
+
+  .images_section img {
+    max-width: 100% !important;
+  }
+
+  .card_wrapper {
+    width: 100% !important;
+  }
+
+  .card_wrapper .card_section {
+    width: 100% !important;
+  }
+
+  .footer_images {
+    margin-left: -70px !important;
+  }
+
+  .form_heading {
+    width: 100% !important;
+  }
+
+  .form_heading {
+    margin-top: 50px !important;
+    width: 100% !important;
+  }
+
+  .main-div {
+    margin-right: 500px !important;
+  }
+
+  .abc {
+    margin-top: 30px !important;
+  }
+
+  .footer_section {
+    padding: 0px 0px 0px 0px !important;
+    height: auto !important;
+  }
+
+  .footer_images img {
+    width: 250px !important;
+    text-align: center !important;
+    margin-left: 100px !important;
+  }
+
+  .footer_div {
+    width: 100% !important;
+  }
+
+  .footer_div {
+    text-align: left !important;
+    margin-left: -25px !important;
+  }
+
+  .main-div {
+    text-align: left !important;
+  }
+
+  .footer_images img {
+    margin-left: 70px !important;
+  }
+
+
+
+}
+
+/* ===== max-width 992px */
+@media (max-width:992px) {
+  .navbar-toggler {
+    border: none !important;
+    box-shadow: none !important;
+    color: var(--white-color) !important;
+    font-size: 30px !important;
+  }
+
+  .navbar_img .fa-bars {
+    color: var(--white-color) !important;
+  }
+
+  .card_wrapper {
+    width: 100% !important;
+  }
+
+  .card_wrapper .card_section {
+    width: 100% !important;
+  }
+
+  .col-gap {
+    margin-left: 0px !important;
+    width: 100% !important;
+  }
+
+  .card_section {
+    height: auto !important;
+  }
+
+  .footer_section {
+    height: auto !important;
+    padding: 0px 0px 0px 0px !important;
+  }
+
+  .abc {
+    margin-top: 20px !important;
+  }
+
+  .form_heading {
+    width: 100% !important;
+  }
+
+  .footer_div {
+    text-align: left !important;
+    margin-left: -25px !important;
+  }
+
+  .main-div {
+    text-align: left !important;
+    margin-top: 12px !important;
+  }
+
+  /* ===== about section ===== */
+  .main_about_sec {
+    /* margin-left: 0px !important; */
+    text-align: left !important;
+    width: 100% !important;
+  }
+
+  .app_left {
+    width: 100% !important;
+    padding-left: 0px !important;
+  }
+
+  .main_about_img {
+    text-align: center !important;
+  }
+
+  .main_about_img {
+    margin-top: 10px !important;
+
+  }
+/* ===== website section ===== */
+.website_left {
+  padding-left: 0px !important;
+  width: 100% !important;
+  /* background-color: var(--secondary-color) !important; */
+  /* margin-top: -10px !important; */
+}
+
+
+}
+
+/* ===== max-width 1200 */
+@media (max-width:1200px) {
+  .navbar_items {
+    margin-left: 10px !important;
+    display: flex !important;
+    align-items: center !important;
+  }
+
+  .card_wrapper .card_section {
+    width: 100% !important;
+  }
+
+  .footer_div {
+    display: flex !important;
+    flex-direction: row !important;
+  }
+
+  header {
+    background-image: none !important;
+    height: 650px !important;
+    background-color: var(--primary-color) !important;
+    opacity: 1 !important;
+  }
+
+  .content_wrapper .main_heading h1 {
+    color: var(--white-color) !important;
+    font-size: 30px !important;
+  }
+
+  .content_wrapper .main_heading_2 h2 {
+    color: var(--white-color) !important;
+    font-size: 30px !important;
+  }
+
+  .main_para p {
+    width: 100% !important;
+    color: var(--white-color) !important;
+    font-size: 16px !important;
+  }
+
+  .form_container {
+    width: 100% !important;
+    border: 1px solid var(--white-color) !important;
+  }
+
+  .navbar_img {
+    margin-left: 20px !important;
+
+  }
+
+  .form_container input {
+    margin: 3px !important;
+    width: 100% !important;
+    font-size: 20px !important;
+  }
+
+  .content_wrapper {
+    margin-left: 15px !important;
+  }
+
+  .main_about_img img {
+    margin-top: 20px !important;
+    /* height: auto !important; */
+
+  }
+
+}
+
+/* ===== max-width: 1440px */
+@media (max-width:1400px) {
+
+  .navbar_items {
+    margin-left: 100px !important;
+    display: flex !important;
+    align-items: center !important;
+  }
+}
